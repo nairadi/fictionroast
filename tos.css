@@ -4,6 +4,15 @@
     padding: 60px 20px;
     text-align: left;
   }
+
+  html, body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
   
   .tos-section .tos-container {
     max-width: 1200px;

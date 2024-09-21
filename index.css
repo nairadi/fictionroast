@@ -4,6 +4,14 @@
   background-size: 120%;
 }
 
+html, body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
 .u-section-1 .u-sheet-1 {
   min-height: 661px;
 }
