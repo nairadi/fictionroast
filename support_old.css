@@ -1,0 +1,312 @@
+/* Section styling for Terms of Service page */
+.tos-section {
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+    text-align: left;
+  }
+
+  html, body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+  
+  .tos-section .tos-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .u-list-item {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+
+  .u-heading-2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 20px 0;
+    text-align: left;
+    /* color: red  !important; */
+  }
+
+  .u-text-2 {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 20px;
+}
+  
+  .tos-section .tos-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .tos-section .tos-text {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .tos-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .tos-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+  }
+
+  .u-section-2 .u-image-1 {
+    /* background-image: url("images/BG_Tutorial.jpg"); */
+    background-image: url("images/FictionRoastLogo.png");
+    /* background-position: 50% 50%;
+    min-height: 355px; */
+  }
+
+
+.u-section-2 .u-container-layout-4 {
+  padding: 30px;
+}
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 1199px) {
+    .tos-section .tos-container {
+      padding: 30px;
+    }
+  
+    .tos-section .tos-title {
+      font-size: 2rem;
+    }
+  
+    .tos-section h2 {
+      font-size: 1.3rem;
+    }
+  
+    .tos-section p {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .tos-section .tos-container {
+      padding: 20px;
+    }
+  
+    .tos-section .tos-title {
+      font-size: 1.75rem;
+    }
+  
+    .tos-section h2 {
+      font-size: 1.2rem;
+    }
+  
+    .tos-section p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .tos-section {
+      padding: 40px 10px;
+    }
+  
+    .tos-section .tos-title {
+      font-size: 1.5rem;
+    }
+  
+    .tos-section h2 {
+      font-size: 1.1rem;
+    }
+  
+    .tos-section p {
+      font-size: 0.85rem;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .tos-section {
+      padding: 30px 5px;
+    }
+  
+    .tos-section .tos-title {
+      font-size: 1.25rem;
+    }
+  
+    .tos-section h2 {
+      font-size: 1rem;
+    }
+  
+    .tos-section p {
+      font-size: 0.8rem;
+    }
+  }
+  
+
+  .u-section-2 .u-container-layout-6 {
+    padding: 30px;
+  }
+  
+  @media (max-width: 1199px) {
+    .u-section-2 .u-sheet-1 {
+      min-height: 788px;
+    }
+  
+    .u-section-2 .u-group-1 {
+      width: 872px;
+    }
+  
+    .u-section-2 .u-text-1 {
+      position: relative;
+    }
+  
+    .u-section-2 .u-text-2 {
+      position: relative;
+    }
+  
+    .u-section-2 .u-layout-wrap-1 {
+      margin-right: initial;
+      margin-left: initial;
+    }
+  
+    .u-section-2 .u-image-1 {
+      min-height: 343px;
+    }
+  
+    .u-section-2 .u-image-2 {
+      min-height: 343px;
+    }
+  
+    .u-section-2 .u-image-3 {
+      min-height: 293px;
+    }
+  
+    .u-section-2 .u-image-4 {
+      min-height: 293px;
+    }
+  
+    .u-section-2 .u-image-5 {
+      min-height: 293px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .u-section-2 .u-sheet-1 {
+      min-height: 639px;
+    }
+  
+    .u-section-2 .u-group-1 {
+      width: 668px;
+    }
+  
+    .u-section-2 .u-container-layout-1 {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+    .u-section-2 .u-text-1 {
+      font-size: 3rem;
+    }
+  
+    .u-section-2 .u-image-1 {
+      min-height: 263px;
+    }
+  
+    .u-section-2 .u-image-2 {
+      min-height: 263px;
+    }
+  
+    .u-section-2 .u-image-3 {
+      min-height: 224px;
+    }
+  
+    .u-section-2 .u-image-4 {
+      min-height: 224px;
+    }
+  
+    .u-section-2 .u-image-5 {
+      min-height: 224px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .u-section-2 .u-sheet-1 {
+      min-height: 2048px;
+    }
+  
+    .u-section-2 .u-group-1 {
+      min-height: 194px;
+      width: 540px;
+    }
+  
+    .u-section-2 .u-container-layout-1 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .u-section-2 .u-image-1 {
+      min-height: 296px;
+    }
+  
+    .u-section-2 .u-container-layout-2 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .u-section-2 .u-image-2 {
+      min-height: 592px;
+    }
+  
+    .u-section-2 .u-container-layout-3 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .u-section-2 .u-image-3 {
+      min-height: 504px;
+    }
+  
+    .u-section-2 .u-container-layout-4 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .u-section-2 .u-image-4 {
+      min-height: 504px;
+    }
+  
+    .u-section-2 .u-container-layout-5 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .u-section-2 .u-image-5 {
+      min-height: 504px;
+    }
+  
+    .u-section-2 .u-container-layout-6 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
